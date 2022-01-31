@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Technology</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+       
+</head>
+<body>
+    <header >
+        <div class="contenedor animate__animated animate__zoomIn">
+            <nav>
+                <div class="enlaces">
+                    <a  href="index.html">Inicio</a>
+                    <a  href="index.html">Acerca de nosotros</a>
+                    <a  href="index.html">Productos</a>
+                    <a href="index.html">Contacto</a>
+                    <div class="dropdown carrito ">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CARRITO <span id="carritoCantidad" class="badge badge-light">0</span>
+                        </button>
+                   
+                   
+                        <div id="carritoProductos" class="dropdown-menu carrito1" aria-labelledby="dropdownMenuButton">
+                        <!--ACA SE GENERAN LOS ELEMENTOS DEL CARRITO-->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="texto">
+                <div class="caja">
+                    <h1>Company Technology </h1>
+                    <a href="">Learn More</a>
+                </div>
+                   
+                    
+
+            </div>
+        </div>
+    </header>
+    
+    <div class="container animate__animated animate__zoomIn">
+    
+        <div class="row">
+            
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Busqueda</span>
+                    </div>
+                    <input id="busquedaProducto" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+            </div>
+            <div>
+                
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">  
+                        <label class="input-group-text" for="filtroCategorias">Categorias</label>
+                    </div>
+                    <select class="custom-select" id="filtroCategorias"></select>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">MIN</span>
+                    </div>
+                    <input id="minProducto" placeholder="100000" type="number" class="form-control inputPrecio" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">MAX</span>
+                    </div>
+                    <input id="maxProducto" placeholder="300000"  type="number" class="form-control inputPrecio" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+            </div>
+        </div>
+        
+        <div id="notificacion">
+
+        </div>
+        <div id="indicadorCarga" class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <hr>
+        <!--style="display: none;"-->
+        <div id="productosContenedor" class="card-columns animate__animated animate__zoomIn" style="display: none;">
+            <!--ACA SE GENERAN LOS PRODUCTOS-->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

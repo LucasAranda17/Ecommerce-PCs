@@ -1,0 +1,12 @@
+[{"id":1,"nombre":"Amd Apu E1 6010","precio":130000,"categoria":"BAJO","cantidad":1,"imagen":"img/pc1.jpg"},
+{"id":2,"nombre":"B02 E1 Amd Apu E1","precio":160000,"categoria":"BAJO","cantidad":1,"imagen":"img/pc1.jpg"},
+{"id":3,"nombre":"Bangho B02 E1 Amd","precio":120000,"categoria":"BAJO","cantidad":1,"imagen":"img/pc1.jpg"},
+{"id":4,"nombre":"Intel Core I3 9na","precio":230000,"categoria":"MEDIO","cantidad":1,"imagen":"img/pc3.jpg"},
+{"id":5,"nombre":"Pc Armada Iqual","precio":260000,"categoria":"MEDIO","cantidad":1,"imagen":"img/pc3.jpg"},
+{"id":6,"nombre":"Pc Armada Intel Core","precio":220000,"categoria":"MEDIO","cantidad":1,"imagen":"img/pc3.jpg"},
+{"id":7,"nombre":"Pc Gamer Amd Ryzen 3 ","precio":370000,"categoria":"MEDIO-ALTO","cantidad":1,"imagen":"img/pc4.jpg"},
+{"id":8,"nombre":"PC Amd Ryzen 3 8gb","precio":320000,"categoria":"MEDIO-ALTO","cantidad":1,"imagen":"img/pc4.jpg"},
+{"id":9,"nombre":" Yugen Pc Amd Ryzen 3","precio":360000,"categoria":"MEDIO-ALTO","cantidad":1,"imagen":"img/pc4.jpg"},
+{"id":10,"nombre":"PC Haku Plus Core I5","precio":420000,"categoria":"ALTO","cantidad":1,"imagen":"img/pc2.jpg"},
+{"id":11,"nombre":"PC Gamer  Plus Core I5","precio":430000,"categoria":"ALTO","cantidad":1,"imagen":"img/pc2.jpg"},
+{"id":12,"nombre":"PC Gamer Haku Plus","precio":450000,"categoria":"ALTO","cantidad":1,"imagen":"img/pc2.jpg"}]
